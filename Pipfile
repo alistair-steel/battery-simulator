@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+numpy = "*"
+pre-commit = "*"
+
+[dev-packages]
+black = "==19.10b0"
+flake8 = "==3.8.2"
+jupyter = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.9"
